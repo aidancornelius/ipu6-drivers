@@ -1,5 +1,7 @@
 # ipu6-drivers
 
+Slightly modified version of these drivers to build under Kernel 6.10 (which is allegedly not actually necessary).
+
 This repository supports MIPI cameras through the IPU6 on Intel Tiger Lake, Alder Lake, Raptor Lake and Meteor Lake platforms.
 There are 4 repositories that provide the complete setup:
 

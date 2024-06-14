@@ -175,6 +175,7 @@ static int ipu_psys_get_userpages(struct ipu_dma_buf_attach *attach)
 	 */
 	attach->vma_is_io = vma->vm_flags & (VM_IO | VM_PFNMAP);
 
+/*
 	if (attach->vma_is_io) {
 		unsigned long io_start = start;
 
@@ -194,7 +195,28 @@ static int ipu_psys_get_userpages(struct ipu_dma_buf_attach *attach)
 				goto error_up_read;
 			pages[nr] = pfn_to_page(pfn);
 		}
-	} else {
+	}*/
+
+if (attach->vma_is_io) {
+    unsigned long io_start = start;
+
+    if (vma->vm_end < start + attach->len) {
+        dev_err(attach->dev,
+                "vma at %lu is too small for %llu bytes\n",
+                start, attach->len);
+        ret = -EFAULT;
+        goto error_up_read;
+    }
+
+    ret = pin_user_pages(io_start, npages, FOLL_WRITE, pages);
+    if (ret != npages) {
+        dev_err(attach->dev, "pin_user_pages failed: %d\n", ret);
+        if (ret > 0)
+            unpin_user_pages(pages, ret);
+        ret = -EFAULT;
+        goto error_up_read;
+    }
+} else {
 #if LINUX_VERSION_CODE < KERNEL_VERSION(4, 6, 0)
 		nr = get_user_pages(current, current->mm, start & PAGE_MASK,
 				    npages, 1, 0, pages, NULL);

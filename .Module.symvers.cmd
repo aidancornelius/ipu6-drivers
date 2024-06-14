@@ -1,0 +1,1 @@
+savedcmd_/home/aidancornelius/Downloads/hao-yao/ipu6-drivers/Module.symvers :=  scripts/mod/modpost -M  -a    -N  -o /home/aidancornelius/Downloads/hao-yao/ipu6-drivers/Module.symvers -T /home/aidancornelius/Downloads/hao-yao/ipu6-drivers/modules.order -i Module.symvers -e 

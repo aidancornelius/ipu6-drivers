@@ -1,0 +1,12 @@
+/home/aidancornelius/Downloads/hao-yao/ipu6-drivers/drivers/media/pci/intel/ipu6/../ipu-isys.o
+/home/aidancornelius/Downloads/hao-yao/ipu6-drivers/drivers/media/pci/intel/ipu6/../ipu-isys-csi2.o
+/home/aidancornelius/Downloads/hao-yao/ipu6-drivers/drivers/media/pci/intel/ipu6/ipu6-isys.o
+/home/aidancornelius/Downloads/hao-yao/ipu6-drivers/drivers/media/pci/intel/ipu6/ipu6-isys-phy.o
+/home/aidancornelius/Downloads/hao-yao/ipu6-drivers/drivers/media/pci/intel/ipu6/ipu6-isys-dwc-phy.o
+/home/aidancornelius/Downloads/hao-yao/ipu6-drivers/drivers/media/pci/intel/ipu6/ipu6-isys-csi2.o
+/home/aidancornelius/Downloads/hao-yao/ipu6-drivers/drivers/media/pci/intel/ipu6/ipu6-isys-gpc.o
+/home/aidancornelius/Downloads/hao-yao/ipu6-drivers/drivers/media/pci/intel/ipu6/../ipu-isys-csi2-be-soc.o
+/home/aidancornelius/Downloads/hao-yao/ipu6-drivers/drivers/media/pci/intel/ipu6/../ipu-fw-isys.o
+/home/aidancornelius/Downloads/hao-yao/ipu6-drivers/drivers/media/pci/intel/ipu6/../ipu-isys-video.o
+/home/aidancornelius/Downloads/hao-yao/ipu6-drivers/drivers/media/pci/intel/ipu6/../ipu-isys-queue.o
+/home/aidancornelius/Downloads/hao-yao/ipu6-drivers/drivers/media/pci/intel/ipu6/../ipu-isys-subdev.o

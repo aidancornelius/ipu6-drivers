@@ -1,0 +1,9 @@
+/home/aidancornelius/Downloads/hao-yao/ipu6-drivers/drivers/media/pci/intel/ipu6/../ipu.o
+/home/aidancornelius/Downloads/hao-yao/ipu6-drivers/drivers/media/pci/intel/ipu6/../ipu-bus.o
+/home/aidancornelius/Downloads/hao-yao/ipu6-drivers/drivers/media/pci/intel/ipu6/../ipu-dma.o
+/home/aidancornelius/Downloads/hao-yao/ipu6-drivers/drivers/media/pci/intel/ipu6/../ipu-mmu.o
+/home/aidancornelius/Downloads/hao-yao/ipu6-drivers/drivers/media/pci/intel/ipu6/../ipu-buttress.o
+/home/aidancornelius/Downloads/hao-yao/ipu6-drivers/drivers/media/pci/intel/ipu6/../ipu-trace.o
+/home/aidancornelius/Downloads/hao-yao/ipu6-drivers/drivers/media/pci/intel/ipu6/../ipu-cpd.o
+/home/aidancornelius/Downloads/hao-yao/ipu6-drivers/drivers/media/pci/intel/ipu6/ipu6.o
+/home/aidancornelius/Downloads/hao-yao/ipu6-drivers/drivers/media/pci/intel/ipu6/../ipu-fw-com.o

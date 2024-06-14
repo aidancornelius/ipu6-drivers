@@ -1,0 +1,1 @@
+savedcmd_/home/aidancornelius/Downloads/hao-yao/ipu6-drivers/drivers/media/i2c/ov01a1s.mod := printf '%s\n'   ov01a1s.o | awk '!x[$$0]++ { print("/home/aidancornelius/Downloads/hao-yao/ipu6-drivers/drivers/media/i2c/"$$0) }' > /home/aidancornelius/Downloads/hao-yao/ipu6-drivers/drivers/media/i2c/ov01a1s.mod
